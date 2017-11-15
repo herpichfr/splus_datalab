@@ -4,50 +4,44 @@
       <h2>Data Access</h2>
   </header>
 
-<p>The SMASH data are accessible by a variety of means:</p>
+<p>The DES DR1 data are accessible by a variety of means:</p>
     <b>Data Lab Table Access Protocol (TAP) service</b>
 
-<p>TAP provides a convenient access layer to the SMASH catalog database.
+<p>TAP provides a convenient access layer to the DES DR1 catalog database.
 TAP-aware clients (such as <a
 href="http://www.star.bris.ac.uk/~mbt/topcat/">TOPCAT</a>) can point to
-<i>http://datalab.noao.edu/tap</i>, select the <i>smash_dr1</i> database, and
-see the database tables and descriptions.  <i>smash_dr1</i> contains six
-tables: <i>chip, exposure, field, object, source,</i> and <i>xmatch</i>.
-These are described in the <a href="smash_schema.php">schema page</a>.
+<i>http://datalab.noao.edu/tap</i>, select the <i>des_dr1</i> database, and
+see the database tables and descriptions.  <i>des_dr1</i> contains fifteen
+tables, with <i>main</i> containing the primary object photometry.  For a one-line description of all of the tables, see <a href="index.html#release">the overview page</a>.
 
 <p> 
 <b>Data Lab Query Manager</b>
-<p>The Query Manager is available as part of the prototype Data Lab software
-distribution.  The Query Manager client provides a Python API to Data Lab
-database services.  For the SMASH DR1 release, these services include only
-anonymous access through synchronous queries of the catalog made directly to
-the database.  The full public release of the Data Lab Query Manager in the
-summer of 2017 will include authenticated access, synchronous and
-asynchronous queries, TAP queries, personal database storage, and storage
-through the Data Lab VOSpace.
+<p>The Query Manager is available as part of the Data Lab software
+distribution or through the Data Lab Jupyter Notebook server.  The Query Manager client provides a Python API to Data Lab database services.  For the DES DR1 release, these services include anonymous and authenticated access through synchronous and asynchronous queries of the catalog.
 
 <p> 
 <b>Image cutouts</b>
 <p>The Data Lab Simple Image Access (SIA) service provides a fast way
-  to retrieve cutouts from SMASH images.  For an example of how to use
+  to retrieve cutouts from DES DR1 images.  For an example of how to use
   the SIA service,
   see <a
-href="http://nbviewer.jupyter.org/github/noao-datalab/notebooks/blob/master/SMASH_dropouts.ipynb">this
+href="">this
   Jupyter notebook</a>.
 
 <p> 
 <b>Jupyter Notebook Server</b>
-<p>The Data Lab <a href="http://datalab.noao.edu/notebooks">Jupyter Notebook
-server</a> contains examples of how to access and visualize the SMASH
-catalog.
+<p>The Data Lab <a href="http://datalab.noao.edu/devbooks">Jupyter Notebook
+server</a> contains examples of how to access and visualize the DES DR1
+catalog (account creation required).
 
 
+<!--
 <p> 
 <b>FTP access</b>
-<p>All of the SMASH catalog files, images, and products of the photometric
+<p>All of the DES DR1 catalog files, images, and products of the photometric
 pipeline are available by FTP at
-the <a href="ftp://archive.noao.edu/public/hlsp/smash/dr1/">NOAO High Level
-Data Products</a> site (easily browsed with Chrome).
- 
+the <a href="">NOAO High Level
+Data Products</a> site.
+--> 
 
 </article>
