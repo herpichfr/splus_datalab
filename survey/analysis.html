@@ -10,12 +10,12 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!--[if lte IE 8]>
-    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css"/>
+    <script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="../assets/css/main.css"/>
     <!--[if lte IE 8]>
-    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
+    <link rel="stylesheet" href="../assets/css/ie8.css"/><![endif]-->
     <!--[if lte IE 9]>
-    <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
+    <link rel="stylesheet" href="../assets/css/ie9.css"/><![endif]-->
 
 
     <!--  Load elements of the template page.
@@ -23,8 +23,10 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script>
         $(function () {
+            $("#header").load("../inc/custom-header.inc");
             $("#sidebar").load("sidebar.html");
             $("#analysis_content").load("analysis/analysis_content.html");
+            $("#footer-content").load("../inc/custom-footer.inc");
         });
     </script>
 
@@ -32,7 +34,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 </head>
 <body id="survey">
 <div id="page-wrapper">
-
+    <div id="header"></div>
     <!-- Main -->
     <section class="wrapper style1">
         <div class="container">
@@ -52,16 +54,20 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             </div>
         </div>
     </section>
+    <div id="footer">
+        <div class="container" id="footer-content">
 
+        </div>
+    </div>
 </div>
 <!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.dropotron.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/jquery.dropotron.min.js"></script>
+<script src="../assets/js/skel.min.js"></script>
+<script src="../assets/js/util.js"></script>
 <!--[if lte IE 8]>
-<script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
+<script src="../assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="../assets/js/main.js"></script>
 <script>
     $('.back-to-top').click(function () {
         $('body,html').animate({
