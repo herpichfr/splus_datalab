@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<!--
+Arcana by HTML5 UP
+html5up.net | @n33co
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>NOAO Data Lab - Survey Data</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--[if lte IE 8]>
+    <script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="../assets/css/main.css"/>
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="../assets/css/ie8.css"/><![endif]-->
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="../assets/css/ie9.css"/><![endif]-->
+    <link rel="stylesheet" href="../assets/css/aladin.min.css"/>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <!--  Load elements of the template page.
+    -->
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("../inc/custom-header.inc");
+            $("#sidebar").load("sidebar.html");
+            $("#explore").load("explore/explore_content.html");
+            $("#footer-content").load("../inc/custom-footer.inc");
+        });
+    </script>
+</head>
+<body id="survey">
+<div id="page-wrapper">
+    <div id="header"></div>
+    <!-- Main -->
+    <section class="wrapper style1">
+        <div class="container">
+            <div class="row 200%">
+                <div class="3u 12u(narrower)">
+                    <div id="sidebar">
+                    </div>
+                </div>
+                <div class="9u  12u(narrower) important(narrower)">
+                    <div id="content">
+
+                        <!-- Content -->
+
+                        <div id="explore"></div>
+
+                        <div class="row 200%">
+                            <div class="10u  12u(narrower) important(narrower)">
+                                <div id='aladin-lite-div' class="aladin-container"
+                                     style='width: 100%; height:803px;'></div>
+                                <div id='measure-table'></div>
+                            </div>
+                            <div class="2u 12u(narrower)">
+                                <nav id="discovery_nav">
+                                    <ul>
+                                        <li class="discovery_option image_discovery active"><a>Discover Image Data</a>
+                                        </li>
+                                        <li class="discovery_option catalog_discovery"><a>Discover Catalog Data</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer">
+        <div class="container" id="footer-content">
+
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.dropotron.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <!--[if lte IE 8]>
+    <script src="../assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="../assets/js/main.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="../assets/js/aladin.min.js"></script>
+    <script>
+        var aladin = A.aladin('#aladin-lite-div', {cooFrame: 'J2000', target: 'LMC', survey: 'NOAO/ExposureMap'});
+        aladin.getBaseImageLayer().getColorMap().update('rainbow');
+        $('#measure-table')[0].appendChild($('.aladin-measurement-div')[0]);
+        var version = 'NOAO_exposure';
+        $(".discovery_option").click(function () {
+            $(".discovery_option").removeClass("active");
+            $(this).addClass("active");
+        });
+        $(".image_discovery").click(function () {
+            aladin.removeOverlayImageSurveys();
+            aladin.setBaseImageLayer('NOAO/ExposureMap');
+            aladin.setFov(60);
+            aladin.setFrame('J2000');
+            aladin.gotoObject('LMC');
+            aladin.getBaseImageLayer().getColorMap().update('rainbow');
+            if ($('.aladin-cmSelection').length == 1) {
+                $('.aladin-cmSelection')[0].options.selectedIndex = 4;
+            }
+            version = 'NOAO_exposure';
+            if ($('#displayMay').length == 1) {
+                $('#displayMay')[0].checked = 0;
+            }
+            if ($('#displayMell').length == 1) {
+                $('#displayMell')[0].checked = 0;
+            }
+            $('.smash_version').hide();
+            $('.slider-control').hide();
+            $('.NOAO_exposure').show();
+            aladin.view.catalogs = [];
+            $('.aladin-measurement-div').empty();
+            $('.aladin-measurement-div').hide();
+        });
+        $(".catalog_discovery").click(function () {
+            aladin.removeOverlayImageSurveys();
+            aladin.setBaseImageLayer('P/Mellinger/color');
+            aladin.getBaseImageLayer().getColorMap().update('native');
+            if ($('.aladin-cmSelection').length == 1) {
+                $('.aladin-cmSelection')[0].options.selectedIndex = 0;
+            }
+            aladin.setFov(180);
+            aladin.setFrame('J2000');
+            aladin.gotoObject('LMC');
+            aladin.setOverlayImageLayer(HpxImageSurvey.getSurveyFromId('SMASH'));
+            aladin.getOverlayImageLayer('SMASH').setAlpha(0.5);
+            $('.may-slider-control').hide();
+            if ($('#displaySmash').length == 1) {
+                $('#displaySmash')[0].checked = 1;
+            }
+            if ($('#displayMell').length == 1) {
+                $('#displayMell')[0].checked = 0;
+            }
+            $('.smash-slider-control').show();
+            $("#smashSlider").slider('value', aladin.getOverlayImageLayer('SMASH').alpha * 100);
+            $("#smashOpacity").html("50%");
+            version = 'smash';
+            $('.smash_version').show();
+            $('.NOAO_exposure').hide();
+            $('.slider-control').hide();
+            aladin.view.catalogs = [];
+            $('.aladin-measurement-div').empty();
+            $('.aladin-measurement-div').hide();
+        });
+    </script>
+</div>
+</body>
+</html>
