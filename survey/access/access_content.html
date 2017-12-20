@@ -4,50 +4,37 @@
       <h2>Data Access</h2>
   </header>
 
-<p>The SMASH data are accessible by a variety of means:</p>
+<p>The NSC DR1 data are accessible by a variety of means:</p>
     <b>Data Lab Table Access Protocol (TAP) service</b>
 
-<p>TAP provides a convenient access layer to the SMASH catalog database.
+<p>TAP provides a convenient access layer to the NSC catalog database.
 TAP-aware clients (such as <a
 href="http://www.star.bris.ac.uk/~mbt/topcat/">TOPCAT</a>) can point to
-<i>http://datalab.noao.edu/tap</i>, select the <i>smash_dr1</i> database, and
-see the database tables and descriptions.  <i>smash_dr1</i> contains six
-tables: <i>chip, exposure, field, object, source,</i> and <i>xmatch</i>.
-These are described in the <a href="smash_schema.php">schema page</a>.
+<i>http://datalab.noao.edu/tap</i>, select the <i>nsc_dr1</i> database, and
+see the database tables and descriptions.  <i>nsc_dr1</i> contains four
+tables: <i>chip, exposure, object,</i> and <i>coverage</i>.
 
 <p> 
 <b>Data Lab Query Manager</b>
 <p>The Query Manager is available as part of the prototype Data Lab software
 distribution.  The Query Manager client provides a Python API to Data Lab
-database services.  For the SMASH DR1 release, these services include only
-anonymous access through synchronous queries of the catalog made directly to
-the database.  The full public release of the Data Lab Query Manager in the
-summer of 2017 will include authenticated access, synchronous and
+database services.  Services include authenticated access, synchronous and
 asynchronous queries, TAP queries, personal database storage, and storage
 through the Data Lab VOSpace.
 
 <p> 
 <b>Image cutouts</b>
 <p>The Data Lab Simple Image Access (SIA) service provides a fast way
-  to retrieve cutouts from SMASH images.  For an example of how to use
+  to retrieve cutouts from NSC images.  For an example of how to use
   the SIA service,
   see <a
-href="http://nbviewer.jupyter.org/github/noao-datalab/notebooks/blob/master/SMASH_dropouts.ipynb">this
+href="http://nbviewer.jupyter.org/github/noao-datalab/notebooks/blob/master/NSC_dropouts.ipynb">this
   Jupyter notebook</a>.
 
 <p> 
 <b>Jupyter Notebook Server</b>
 <p>The Data Lab <a href="http://datalab.noao.edu/notebooks">Jupyter Notebook
-server</a> contains examples of how to access and visualize the SMASH
+server</a> contains examples of how to access and visualize the NSC
 catalog.
-
-
-<p> 
-<b>FTP access</b>
-<p>All of the SMASH catalog files, images, and products of the photometric
-pipeline are available by FTP at
-the <a href="ftp://archive.noao.edu/public/hlsp/smash/dr1/">NOAO High Level
-Data Products</a> site (easily browsed with Chrome).
- 
 
 </article>
