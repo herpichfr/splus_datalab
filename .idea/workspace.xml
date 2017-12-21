@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bedc36b2-3f61-4e30-9dab-4cfc3d91188c" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/survey/access.html" afterPath="$PROJECT_DIR$/survey/access.html" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
     </list>
     <ignored path="template.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +31,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/survey/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="135">
               <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+=======
+            <state relative-caret-position="480">
+              <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
               <folding />
             </state>
           </provider>
@@ -37,38 +46,70 @@
       <file leaf-file-name="table_1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/survey/overview/table_1.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="375">
               <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding />
+=======
+            <state relative-caret-position="345">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <marker date="1513800565000" expanded="true" signature="1004:1008" ph="..." />
+              </folding>
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="explore.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/survey/explore.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
               <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+=======
+      <file leaf-file-name="explore.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/survey/explore.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="access.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/survey/access.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
               <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+=======
+      <file leaf-file-name="access.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/survey/access.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="results.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/survey/results.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
               <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+=======
+      <file leaf-file-name="data_release.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/survey/overview/data_release.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
               <folding />
             </state>
           </provider>
@@ -84,6 +125,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/survey/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,15 +135,31 @@
                 <element signature="n#style#0;n#li#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#section#0;n#!!top" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="description.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/survey/overview/description.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="description.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/survey/overview/description.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+=======
+      <file leaf-file-name="explore_content.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/survey/explore/explore_content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
               <folding />
             </state>
           </provider>
@@ -111,7 +169,11 @@
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
+<<<<<<< HEAD
               <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+=======
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
               <folding />
             </state>
           </provider>
@@ -130,7 +192,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$" value="nscdr1" />
+=======
+        <entry key="$PROJECT_DIR$" value="master" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
       </map>
     </option>
   </component>
@@ -159,11 +225,21 @@
         <option value="$PROJECT_DIR$/analysis.html" />
         <option value="$PROJECT_DIR$/explore.html" />
         <option value="$PROJECT_DIR$/index.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/survey/analysis.html" />
         <option value="$PROJECT_DIR$/survey/index.html" />
         <option value="$PROJECT_DIR$/survey/overview/table_1.html" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/survey/access.html" />
+=======
+        <option value="$PROJECT_DIR$/survey/access.html" />
+        <option value="$PROJECT_DIR$/survey/analysis.html" />
+        <option value="$PROJECT_DIR$/survey/overview/table_1.html" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/survey/index.html" />
+        <option value="$PROJECT_DIR$/survey/explore/explore_content.html" />
+        <option value="$PROJECT_DIR$/survey/explore.html" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
       </list>
     </option>
   </component>
@@ -173,6 +249,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="PhpServers">
     <servers />
   </component>
@@ -182,6 +259,14 @@
     <option name="y" value="39" />
     <option name="width" value="1978" />
     <option name="height" value="1210" />
+=======
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1035" />
+    <option name="y" value="143" />
+    <option name="width" value="1311" />
+    <option name="height" value="1119" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -208,9 +293,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,6 +341,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -267,6 +356,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+=======
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
               <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -284,6 +375,7 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -306,6 +398,8 @@
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+=======
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -323,6 +417,12 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,6 +440,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/js" />
+<<<<<<< HEAD
       <recent name="$PROJECT_DIR$/assets/css" />
       <recent name="$PROJECT_DIR$/inc" />
       <recent name="$PROJECT_DIR$/nameOfSurvey" />
@@ -350,6 +451,8 @@
       <recent name="$PROJECT_DIR$/access" />
       <recent name="$PROJECT_DIR$/content" />
       <recent name="$PROJECT_DIR$" />
+=======
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
     </key>
   </component>
   <component name="RunManager" selected="Firefox Remote.template">
@@ -1070,6 +1173,7 @@
       <workItem from="1510262283164" duration="6160000" />
       <workItem from="1510786603786" duration="45000" />
       <workItem from="1511290203544" duration="2153000" />
+<<<<<<< HEAD
       <workItem from="1513805716183" duration="785000" />
       <workItem from="1513887348694" duration="1480000" />
     </task>
@@ -1102,12 +1206,39 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="268" y="39" width="1978" height="1210" extended-state="0" />
+=======
+      <workItem from="1513800474193" duration="3349000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix des pages">
+      <created>1513804863540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513804863540</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix des pages explore page">
+      <created>1513805479002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513805479003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25964000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1035" y="143" width="1311" height="1119" extended-state="0" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.50619835" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1116,6 +1247,16 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16115703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24586289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1142,14 +1283,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="update explore page" />
     <MESSAGE value="add header" />
     <option name="LAST_COMMIT_MESSAGE" value="add header" />
+=======
+    <MESSAGE value="fix des pages" />
+    <MESSAGE value="fix des pages explore page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix des pages explore page" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/survey/explore.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1179,6 +1333,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
         </state>
       </provider>
     </entry>
@@ -1202,8 +1360,13 @@
         <state relative-caret-position="480">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="n#style#0;n#li#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#section#0;n#!!top" expanded="true" />
+=======
+            <element signature="n#style#0;n#li#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#1;n#section#0;n#!!top" expanded="false" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
           </folding>
         </state>
       </provider>
@@ -1253,8 +1416,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="n#style#0;n#li#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#section#0;n#!!top" expanded="true" />
+=======
+            <element signature="n#style#0;n#li#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#1;n#section#0;n#!!top" expanded="false" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
           </folding>
         </state>
       </provider>
@@ -1280,8 +1448,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="n#style#0;n#li#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#section#0;n#!!top" expanded="true" />
+=======
+            <element signature="n#style#0;n#li#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#1;n#section#0;n#!!top" expanded="false" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
           </folding>
         </state>
       </provider>
@@ -1307,8 +1480,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="n#style#0;n#li#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#section#0;n#!!top" expanded="true" />
+=======
+            <element signature="n#style#0;n#li#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#1;n#section#0;n#!!top" expanded="false" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
           </folding>
         </state>
       </provider>
@@ -1335,6 +1513,7 @@
     <entry file="file://$PROJECT_DIR$/nameOfSurvey/page2.html" />
     <entry file="file://$PROJECT_DIR$/nameOfSurvey/page3.html" />
     <entry file="file://$PROJECT_DIR$/nameOfSurvey/explore.html" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/survey/overview/data_release.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1342,6 +1521,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
     <entry file="file://$PROJECT_DIR$/survey/overview/data_reduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1363,6 +1544,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/survey/results/results_content.html" />
     <entry file="file://$PROJECT_DIR$/survey/analysis/analysis_content.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1376,6 +1558,19 @@
         <state relative-caret-position="420">
           <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/survey/results/results_content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/survey/analysis/analysis_content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
         </state>
       </provider>
     </entry>
@@ -1390,6 +1585,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
         </state>
       </provider>
     </entry>
@@ -1403,11 +1602,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/survey/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="420">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#li#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#section#0;n#!!top" expanded="true" />
+=======
+        <state relative-caret-position="480">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#1;n#section#0;n#!!top" expanded="false" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
           </folding>
         </state>
       </provider>
@@ -1432,6 +1639,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="303" column="27" selection-start-line="303" selection-start-column="26" selection-end-line="303" selection-end-column="27" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -1439,18 +1647,133 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+=======
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/survey/access.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/survey/overview/table_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+=======
+    <entry file="file://$PROJECT_DIR$/survey/analysis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/assets/js/aladin.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/survey/overview/table_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <marker date="1513800565000" expanded="true" signature="1004:1008" ph="..." />
+          </folding>
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/aladin.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="97" selection-start-line="0" selection-start-column="97" selection-end-line="0" selection-end-column="97" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+<<<<<<< HEAD
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+=======
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/survey/explore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+=======
+    <entry file="file://$PROJECT_DIR$/survey/overview/data_release.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/survey/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/survey/overview/description.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+=======
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/survey/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+=======
+    <entry file="file://$PROJECT_DIR$/survey/explore/explore_content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/survey/access.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+=======
     <entry file="file://$PROJECT_DIR$/assets/js/aladin.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1459,49 +1782,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/aladin.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="97" selection-start-line="0" selection-start-column="97" selection-end-line="0" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/survey/explore.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/survey/overview/description.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/survey/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/survey/access.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="245">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+>>>>>>> 9ab9bc2293fbf5e9ba8c419a3a9f870b44fda019
           <folding />
         </state>
       </provider>
