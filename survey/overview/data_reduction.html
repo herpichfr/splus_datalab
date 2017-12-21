@@ -3,19 +3,50 @@
 
 <a name="Data Reduction"></a>
 <header>
-    <h2>Data Reduction</h2>
+    <h2>Data Processing</h2>
 </header>
-Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a
+The NSC data processing makes use of three separate software packages: (1) the
+<a href="http://www.noao.edu/noao/staff/fvaldes/CPDocPrelim/PL201_3.html">Community
+Pipeline (CP)</a> for instrument signature removal (<a href="http://adsabs.harvard.edu/abs/2014ASPC..485..379V">
+Valdes et al. 2014</a>),
+(2) <a href="https://www.astromatic.net/software/sextractor">Source Extractor</a>
+(<a href="http://adsabs.harvard.edu/abs/1996A%26AS..117..393B">Bertin &amp; Arnouts 1996</a>) for performing
+source extraction from the images, and (3)
+<a href="https://github.com/dnidever/noaosourcecatalog">custom software</a> (in python and IDL)
+to run SExtractor on the images and to perform calibration and combination.
 
-rutrum accumsan sed. Suspendisse eu.
 <ul>
-    <li><b>Duis neque nisi, dapibus sed mattis et quis, nibh.</b>.
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis,
-        sed a rutrum accumsan sed. Suspendisse eu.
+    <li><b>Reduction</b>.
+      All of the images were reduced by the NOAO Community Pipeline.
+      The instrumentally calibrated ("InstCal") images with the instrumental signature removed
+      were used for further analysis to create the NSC catalogs.
     </li>
-    <li><b>Duis neque nisi, dapibus sed mattis et quis, nibh.</b>.
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis,
-        sed a rutrum accumsan sed. Suspendisse eu.
+    <li><b>Measurement</b>.
+      Source Extractor was run on each individual chip image to extract aperture photometry and
+      morphological parameters.  The SExtractor configuration parameters are available 
+      <a href="overview/default.config">here</a> and were modified slightly for each image
+      (seeing, gain, saturation level and circular aperture sizes).
+      In the future, we plan to perform PSF photometry on individual exposures and stacked images.
+    </li>
+    <li><b>Calibration</b>.
+      The zero-point for each exposure was obtained by using publicly available catalogs.  For
+      grizY exposures above -30 degrees declination the <a href="https://panstarrs.stsci.edu">Pan-STARRS1 DR1</a>
+      catalog was used.  For the rest of the exposures, model magnitudes were constructed from
+      <a href="https://www.cosmos.esa.int/web/gaia/dr1">Gaia DR1</a>,
+      <a href="https://www.ipac.caltech.edu/2mass/">2MASS</a>,
+      <a href="http://www.galex.caltech.edu/about/overview.html">GALEX</a>, and
+      <a href="https://www.aavso.org/apass">APASS</a> and an extinction term using the
+      <a href="http://adsabs.harvard.edu/abs/1998ApJ...500..525S">Schlegel, Finkbeiner &amp; David (1998)</a> reddening map.
+      The astrometry of each chip was calibrated using the Gaia DR1 catalog.
+    </li>
+    <li><b>Combination</b>.
+      Quality cuts were used to remove exposures with poor seeing, bad zero-points, large spatial
+      variations in the zero-point, or poor astrometric calibration.  Furthermore, quality cuts were
+      also applied to the individual source meaurements that were affected by bad pixels,
+      truncated at the edge, or had low signal-to-noise (S/N&lt;5).  Finally, measurements from multiple
+      overlapping exposures were combined on a healpix (nside=128) pixel basis.  Sources were crossmatched
+      and their average magnitudes and morphological parameters (in each band) were computed.  Finally, proper motions
+      and the photometric variability in each band were also calculated.
     </li>
 </ul>
 
