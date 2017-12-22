@@ -26,3 +26,24 @@
         <li>Design: Wendy Huang, Mark Newhouse &amp; <a href="http://html5up.net">HTML5 UP</a></li>
     </ul>
 </div>
+<script>
+    $(function() {
+        var $sidebar   = $("#sidebar"),
+            $window    = $(window),
+            offset     = $sidebar.offset(),
+            topPadding = 15;
+
+        $window.scroll(function() {
+            if ($window.scrollTop() > offset.top) {
+                $sidebar.stop().animate({
+                    marginTop: $window.scrollTop() - offset.top + topPadding
+                });
+            } else {
+                $sidebar.stop().animate({
+                    marginTop: 0
+                });
+            }
+        });
+
+    });
+</script>
