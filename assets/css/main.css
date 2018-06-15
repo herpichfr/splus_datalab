@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+@import url("googleapis.css");
 
 /*
 	Arcana by HTML5 UP
@@ -44,6 +44,12 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 .dlpage table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.dlquery table {
     border-collapse: collapse;
     border-spacing: 0;
 }
@@ -1850,7 +1856,7 @@ em, i {
     font-style: italic;
 }
 
-p, ul, ol, dl, .dlpage table, blockquote {
+p, ul, ol, dl, .dlpage table, .dlquery table, blockquote {
     margin: 0 0 2em 0;
 }
 
@@ -2219,7 +2225,15 @@ table.default {
     border-bottom: solid 1px #e0e0e0;
 }
 
+.dlquery table tbody tr {
+    border-bottom: solid 1px #e0e0e0;
+}
+
 .dlpage table td {
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.dlquery table td {
     padding: 0.5em 1em 0.5em 1em;
 }
 
@@ -2231,9 +2245,28 @@ table.default {
     color: white;
 }
 
+.dlquery table th {
+    font-weight: 600;
+    padding: 0.5em 1em 0.5em 1em;
+    text-align: left;
+    background-color: #37c0fb;
+    color: white;
+}
+
 .dlpage table tr:nth-child(odd){background-color: #f2f2f2}
 
+.dlquery table tr:nth-child(odd){background-color: #f2f2f2}
+
 .dlpage table thead {
+    background-color: #555555;
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
+    color: #fff;
+}
+
+.dlquery table thead {
     background-color: #555555;
     background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
@@ -3146,6 +3179,20 @@ input[type="button"].small,
 
 /* Mobile (Portrait) */
 
+@media screen and (max-width: 840px) {
+
+    .icon.major {
+        width: 4em;
+        height: 4em;
+        line-height: 4em;
+        box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+    }
+
+    .icon.major:before {
+        font-size: 24px;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     /* Lists */
@@ -3640,10 +3687,41 @@ input:focus + .hint {
     width: 200px;
 }
 
+.tooltip .tooltip-bottom {
+    font-size: 15px;
+    visibility: hidden;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .6s;
+}
+
+
 .tooltip:hover .tooltiptext{
     visibility: visible;
     opacity: 1;
 }
+
+.tooltip:hover .tooltip-bottom {
+    visibility: visible;
+    opacity: 1;
+}
+
+.working {
+    color: #fff;
+    width: 130px;
+}
+
+.not-working {
+    color: red;
+    width: 150px;
+}
+
 
 #mybgcarousel{ /* CSS for specific carousel container called #mybgcarousel. */
     width:100%;
@@ -3749,8 +3827,224 @@ div.bgcarousel div.slide header .button {
     margin-left: 1em;
 }
 
-#chosenTable {
-    font-weight: bold;
+@media screen and (min-width: 840px) {
+    #chosenTable {
+        font-weight: bold;
+    }
+
+    /*
+    #content {
+        overflow: auto;
+    }
+    */
+
+    #sidebar {
+        float: left;
+    }
+
+    #sidebar.at {
+        top: 1px;
+        position: fixed;
+    }
+
+    #sidebar.at-top {
+
+    }
+
+    #sidebar.at-bottom {
+        top: 438px;
+        position: absolute;
+    }
 }
 
 
+.btn-xs, .btn-group-xs>.btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 2px 7px;
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    top: -31px;
+    right: 3px;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.modal.loading .modal-content:before {
+    content: 'Loading...';
+    text-align: center;
+    line-height: 155px;
+    font-size: 20px;
+    background: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #EEE;
+    z-index: 1000;
+}
+
+
+
+.fade.in {
+    opacity: 1;
+}
+.modal {
+    display: none;
+    overflow: auto;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+}
+.modal.fade .modal-dialog {
+    -webkit-transform: translate(0,-25%);
+    -ms-transform: translate(0,-25%);
+    transform: translate(0,-25%);
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -moz-transition: -moz-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out;
+}
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    background-clip: padding-box;
+    outline: 0;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.42857143px;
+}
+
+.modal-header .close {
+    margin-top: -2px;
+}
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    -webkit-appearance: none;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+    filter: alpha(opacity=20);
+}
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+}
+.modal-body {
+    position: relative;
+    padding: 20px;
+}
+.modal-footer {
+    margin-top: 15px;
+    padding: 19px 20px 20px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.file-list {
+    position: relative;
+}
+
+@media screen and (max-width: 840px) {
+    .file-list {
+        position: static;
+    }
+    .modal {
+        top: 47px;
+    }
+}
+
+.sia_button {
+    margin-bottom: 10px;
+    background-color: #37c0fb;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 1.5em;
+    min-width: 9em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
+.file-select {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
