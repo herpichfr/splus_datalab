@@ -5,17 +5,55 @@
 <header>
     <h2>Data Reduction</h2>
 </header>
-Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a
 
-rutrum accumsan sed. Suspendisse eu.
-<ul>
-    <li><b>Duis neque nisi, dapibus sed mattis et quis, nibh.</b>.
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis,
-        sed a rutrum accumsan sed. Suspendisse eu.
+<p>
+    The raw imaging data of S-PLUS are processed daily and data catalogs are generated at the data center, located in
+    the T80-South technical room, on Cerro Tololo, Chile.
+</p>
+
+<p>
+    The S-PLUS raw data are reduced using a version of the same data processing pipeline jype that is used to process
+    data for the J-PLUS and the J-PAS surveys, and it is based on the photometric pipeline originally developed for the
+    ALHAMBRA survey (see Cristobal-Hornillos et al. 2009; Molino et al. 2014; Benitez et al. 2014) and the CLASH surveys
+    (Molino et al. 2017).
+</p>
+
+
+The basic reduction strategy consists of four steps:
+<ul type="i">
+    <li>
+        generating a master bias;
     </li>
-    <li><b>Duis neque nisi, dapibus sed mattis et quis, nibh.</b>.
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis,
-        sed a rutrum accumsan sed. Suspendisse eu.
+    <li>
+        creating a master flat;
+    </li>
+    <li>
+        reducing the individual frames, and
+    </li>
+    <li>
+        combining the individual frames into the final astrometrically-aligned images.
     </li>
 </ul>
 
+<p>
+    Bias frames are obtained every night and twilight flats are obtained whenever the sky is clear, at dawn and
+    at dusk. Twilight flats work well for our purposes. Bias and twilight flat fields are stable over a period of about
+    a month and therefore master bias and master flats are obtained for such a period, encompassing the observations of
+    the object. Master flats are obtained for each filter. Only flat fields with counts between 8000 and 45000 counts
+    are used. Overscan subtraction, trimming and bias subtraction is applied to each individual flat field. Master flats
+    are then created by obtaining, for each pixel, the median value with 3 sigma clipping, of all usable flats of a
+    given filter, after scaling each image by its mode. This is performed using the task imcombine of iraf with options
+    median, sigclip, scale=mode and zero=none. Finally the master-flats are normalized to have a median of unity.
+</p>
+
+<p>
+    The reduction of individual images consists of applying the overscan subtraction, trimming, bias subtraction and
+    masterflat division. Then cosmetic corrections (removing satellite tracks and cosmic rays) and fringing subtraction
+    is performed. Satellite track and cosmic ray subtraction is performed using either SatDetect in the first case and
+    LACosmic (van Dokkum 2001) or retina filter in the second case, both from SExtractor. Fringing frames are obtained
+    by combining the final individual frames that suffer from fringing, usually only in the z filter. The fringing
+    patterns are stable over several months, so a single fringing frame is made by combining all images over such a
+    period which do not have any bright objects. The last step is, then, the combination of the individual images, which
+    is done by obtaining the median, with 3 sigma clipping, pixel by pixel, for typically three images of each field and
+    filter. This is performed using the task imcombine of iraf with options median, sigclip, scale=none and zero=mode.
+</p>

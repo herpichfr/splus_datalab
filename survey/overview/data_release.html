@@ -5,16 +5,55 @@
 <header>
     <h2>Data Release</h2>
 </header>
-Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a
-rutrum accumsan sed. Suspendisse eu.
-<ul>
-    <li><b>Duis neque nisi, dapibus sed mattis et quis, nibh.</b>.
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis,
-        sed a rutrum accumsan sed. Suspendisse eu.
-    </li>
-    <li><b>Duis neque nisi, dapibus sed mattis et quis, nibh.</b>.
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis,
-        sed a rutrum accumsan sed. Suspendisse eu.
-    </li>
-</ul>
 
+<p>
+    As explained in Mendes de Oliveira+2018, the procedure adopted in S-PLUS for the catalog production is similar to
+    that thoroughly explained in Molino+14 for the ALHAMBRA survey (Moles et al, 2008). The S-PLUS photometric pipeline
+    is based on the <a href="https://www.astromatic.net/software/sextractor">SExtractor software</a>.
+    Photometric catalogs are constructed in double-image
+    mode to perform multi-band aperture-matched photometry. Detection images are created as a weighted-combination of
+    the reddest (griz) broad-band filters to maximize the detectability of faint (or low-surface brightness) sources and
+    to enhance the definition of the photometric apertures. An empirical noise characterization is done beforehand on an
+    image-by-image basis, to account for correlations among adjacent pixels during image reduction process (Molino+14).
+    Magnitudes for non-detected sources on individual images are set to m=99. and corresponding uncertainties replaced
+    by upper-limits. Photometric zero-point calibrations have been performed for every pointing using a novel technique
+    optimized for wide-field multi-band photometric surveys (Sampedro et al, in prep.). The technique uses a combination
+    of libraries of stellar models and the stellar locus of main sequence stars, applied to typically ~1500 stars per
+    field, bringing all zero-points to a typical error of 1-2%.
+</p>
+<p>
+    As explained in Sampedro et al., (in prep.), the catalog includes both astrometric, morphologic,
+    photometric and photo-z information for all detected sources in the S-PLUS detection images. Astrometric as well as
+    morphological information is extracted from detection images: celestial coordinates (RA, Dec) in the J2000 system,
+    physical position on the CCD (X,Y), photometric aperture size (ISOarea), the signal-to-noise (s2nDet; defined as
+    SExt_FLUX_PETRO/SExt_FLUXERR_PETRO on the detection image), compactness (FWHM and MUMAX), standard SExtractor
+    photometric Flags (PhotoFlag), basic shape parameters (A, B & THETA), the fraction-of-light radii (FlRadDet) and
+    Kron apertures (KrRadDet).
+</p>
+<p>
+    The catalog contains a triple photometry where magnitudes (& uncertainties) are named according to the filter's
+    name and the adopted photometric aperture. Here we provide an example for clarifications: F660_auto, F660_petro &
+    F660_aper correspond to the AB magnitudes for the F660 narrow-band filter, where “auto” refers to the total
+    (restricted) apertures used to derive photo-z estimations, “petro” to the total (moderate) apertures used to derive
+    absolute magnitudes and stellar masses and “aper” to the standard circular 3”-diameter apertures (see Molino+16,
+    Molino+18, for more information). Photometric uncertainties take the same name (as magnitudes) but adding the prefix
+    “d”): “dF660_auto”, “dF660_petro” & “dF660_aper”.
+</p>
+<p>
+    An estimate of the signal-to-noise for every detection, within each one of the three apertures, is also provided as
+    “s2n_F660_auto”, “s2n_F660_petro” & “s2n_F660_aper”, defined as explained before for the detection image. For each
+    sets of magnitudes, photometric uncertainties are empirically corrected in all the 12 bands. Whenever a source was
+    not detected, its magnitude was set to 99. and its photometric uncertainty replaced by a 2-σ upper limit. Magnitudes
+    are corrected from galactic extinction using Schlegel+98.
+</p>
+<p>
+    The catalog also includes a photometric redshift estimate for every source using a new version of the BPZ code
+    (Benítez 2000) optimized for galaxies in the local Universe (Molino et al, in prep.). “zb” correspond to the most
+    likely value (i.e., peak) and “zb_Min” and “zb_Max” represent the lower and upper limits for the first peak within a
+    1σ interval (i.e., ∆z = 0.02x(1 + z). Based on the most likely redshift, a spectral-type classification is also
+    provided by “Tb”, where its number refers to the selected template. “Odds” gives the amount of redshift probability
+    enclosed around the main peak and “χ2” the reduced chi-squared from the comparison between observed and predicted
+    fluxes according to the selected template and redshift. An estimation of the stellar-mass content (in units of
+    log10(M⊙)) is given by “Stell_Mass”. Absolute magnitudes in the Johnson B-band (“M_B”) are estimated for each
+    detection according to its most likely redshift and spectral-type.
+</p>
