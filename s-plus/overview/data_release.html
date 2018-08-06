@@ -30,6 +30,27 @@
     photometric Flags (PhotoFlag), basic shape parameters (A, B & THETA), the fraction-of-light radii (FlRadDet) and
     Kron apertures (KrRadDet).
 </p>
+
+<p>
+    We have also included the flag computed by <a href="https://www.astromatic.net/software/sextractor">SeXtractor</a>.
+    The meaning of the flag's number is the following:
+</p>
+
+<pre style="white-space: pre-wrap;">
+1: The object has neighbors, bright and close enough to significantly bias the MAG_AUTO photometry, or bad pixels,
+2: The object was originally blended with another one,
+4: At least one pixel of the object is saturated,
+8: The object is truncated (too close to an image boundary),
+16: Object's aperture data are incomplete or corrupted,
+32: Object's isophotal data are incomplete or corrupted,
+64: A memory overflow occurred during the deblending,
+128: A memory overflow occurred during the extraction.
+</pre>
+
+<p>
+Objects with a different flag's number may suffer from a combination of the already mentioned flags, being the number the sum of the different flags.
+</p>
+
 <p>
     The catalog contains a triple photometry where magnitudes (& uncertainties) are named according to the filter's
     name and the adopted photometric aperture. Here we provide an example for clarifications: F660_auto, F660_petro &
